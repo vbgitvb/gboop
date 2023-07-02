@@ -17,7 +17,7 @@ public class App {
         Product item2 = new Product(50, 2, "Cola");
         Product item3 = new Bottle(150, 3, "Mineral Water", 101, (float)1.5);
         Product item4 = new HotDrink(70, 4, "Black Tea", 102, (Integer)50);
-        Product item5 = new HotDrink(120, 5, "Coffee Americano", 103, (Integer)45);
+        Product item5 = new HotDrink(120, 5, "Coffee Americano", 103);
 
         assort.add(item1);
         assort.add(item2);
