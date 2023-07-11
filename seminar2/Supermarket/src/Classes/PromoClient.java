@@ -7,12 +7,9 @@ package Classes;
  * 
  */
 
-
-
-//import Interfaces.iActorBehaviuor;
-
-
-
+ /* Класс акционного клиента
+  * Учитывает количество участников, название акции
+  */
 public class PromoClient extends Actor{
 
     /* Название акции */
@@ -84,11 +81,12 @@ public class PromoClient extends Actor{
         return promoName;
     }
 
-    /* */
+    /* Номер клиента в акции*/
     public int getIdClient() {
         return idClient;
     }
 
+    /*Всего участвует в акции */
     public static int getParticipantOfAction() {
         return participantOfAction;
     }
